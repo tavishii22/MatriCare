@@ -1,0 +1,577 @@
+{
+  "myra@gmail.com": {
+    "email": "myra@gmail.com",
+    "password_hash": "$2b$12$amOjh/v3FpD1itS5dliKNexEl8r/9/6fQFhMehgPAy8Z3as9Xj/MG",
+    "hashed_password": "$2b$12$amOjh/v3FpD1itS5dliKNexEl8r/9/6fQFhMehgPAy8Z3as9Xj/MG",
+    "history": [
+      {
+        "timestamp": "2026-07-17T12:53:06+00:00",
+        "prediction": "No Risk",
+        "parameters": {
+          "A": 0,
+          "D": 0,
+          "G": 0,
+          "L": 0,
+          "P": 0,
+          "HB": 15,
+          "RR": 30,
+          "Age": 26,
+          "RBS": 60,
+          "HBA1C": 8,
+          "BodyTemp": 100,
+          "HeartRate": 70,
+          "SystolicBP": 150,
+          "DiastolicBP": 100,
+          "_xai_details": {
+            "reports": [
+              {
+                "risk": "Hypertensive Disorders of Pregnancy",
+                "report": {
+                  "sources": [],
+                  "overview": "",
+                  "risk_factors": "Information not available in the retrieved medical evidence.",
+                  "warning_signs": "Information not available in the retrieved medical evidence.",
+                  "condition_name": "Hypertensive Disorders of Pregnancy",
+                  "patient_summary": "",
+                  "preventive_measures": "Information not available in the retrieved medical evidence.",
+                  "possible_complications": "Information not available in the retrieved medical evidence.",
+                  "when_to_seek_medical_help": "",
+                  "why_this_patient_is_at_risk": ""
+                }
+              },
+              {
+                "risk": "Fetal Growth Restriction (FGR)",
+                "report": {
+                  "sources": [],
+                  "overview": "",
+                  "risk_factors": "Information not available in the retrieved medical evidence.",
+                  "warning_signs": "Information not available in the retrieved medical evidence.",
+                  "condition_name": "Fetal Growth Restriction (FGR)",
+                  "patient_summary": "",
+                  "preventive_measures": "Information not available in the retrieved medical evidence.",
+                  "possible_complications": "Information not available in the retrieved medical evidence.",
+                  "when_to_seek_medical_help": "",
+                  "why_this_patient_is_at_risk": ""
+                }
+              },
+              {
+                "risk": "Preterm Birth",
+                "report": {
+                  "sources": [],
+                  "overview": "",
+                  "risk_factors": "Information not available in the retrieved medical evidence.",
+                  "warning_signs": "Information not available in the retrieved medical evidence.",
+                  "condition_name": "Preterm Birth",
+                  "patient_summary": "",
+                  "preventive_measures": "Information not available in the retrieved medical evidence.",
+                  "possible_complications": "Information not available in the retrieved medical evidence.",
+                  "when_to_seek_medical_help": "",
+                  "why_this_patient_is_at_risk": ""
+                }
+              }
+            ],
+            "top_risks": [
+              {
+                "Risk Score": 2.7374,
+                "Risk Category": "Hypertensive Disorders of Pregnancy",
+                "Matched Features": "SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Elevated Systolic Blood Pressure, Elevated Diastolic Blood Pressure",
+                "No. of Features Matched": 2
+              },
+              {
+                "Risk Score": 2.1899,
+                "Risk Category": "Fetal Growth Restriction (FGR)",
+                "Matched Features": "SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Elevated Systolic Blood Pressure, Elevated Diastolic Blood Pressure",
+                "No. of Features Matched": 2
+              },
+              {
+                "Risk Score": 1.6424,
+                "Risk Category": "Preterm Birth",
+                "Matched Features": "SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Elevated Systolic Blood Pressure, Elevated Diastolic Blood Pressure",
+                "No. of Features Matched": 2
+              }
+            ],
+            "confidence": 81,
+            "disclaimer": "This system is a clinical decision support tool, not a diagnostic device. All outputs require clinician review.",
+            "risk_table": [
+              {
+                "Risk Score": 2.7374,
+                "Risk Category": "Hypertensive Disorders of Pregnancy",
+                "Matched Features": "SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Elevated Systolic Blood Pressure, Elevated Diastolic Blood Pressure",
+                "No. of Features Matched": 2
+              },
+              {
+                "Risk Score": 2.1899,
+                "Risk Category": "Fetal Growth Restriction (FGR)",
+                "Matched Features": "SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Elevated Systolic Blood Pressure, Elevated Diastolic Blood Pressure",
+                "No. of Features Matched": 2
+              },
+              {
+                "Risk Score": 1.6424,
+                "Risk Category": "Preterm Birth",
+                "Matched Features": "SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Elevated Systolic Blood Pressure, Elevated Diastolic Blood Pressure",
+                "No. of Features Matched": 2
+              },
+              {
+                "Risk Score": 0.1962,
+                "Risk Category": "Gestational Diabetes Mellitus (GDM)",
+                "Matched Features": "HBA1C",
+                "Top Clinical Findings": "Diabetic HbA1c",
+                "No. of Features Matched": 1
+              },
+              {
+                "Risk Score": 0.1208,
+                "Risk Category": "Maternal Infection",
+                "Matched Features": "RR",
+                "Top Clinical Findings": "Elevated Respiratory Rate",
+                "No. of Features Matched": 1
+              },
+              {
+                "Risk Score": 0.0806,
+                "Risk Category": "Maternal Anemia",
+                "Matched Features": "RR",
+                "Top Clinical Findings": "Elevated Respiratory Rate",
+                "No. of Features Matched": 1
+              }
+            ],
+            "xai_output": {
+              "disclaimer": "This system is a clinical decision support tool, not a diagnostic device. All outputs require clinician review. The prediction is based on a machine learning model and may not generalize to all populations.",
+              "prediction": {
+                "confidence": 0.81,
+                "risk_level": "Low Risk",
+                "low_risk_probability": 81,
+                "high_risk_probability": 19
+              },
+              "primary_risk": {
+                "name": "Hypertensive Disorders of Pregnancy",
+                "evidence_score": 2.7374
+              },
+              "clinical_features": [
+                {
+                  "unit": "mg/dL",
+                  "feature": "RBS",
+                  "shap_value": -0.20616406753353092,
+                  "display_name": "Random Blood Sugar",
+                  "patient_value": 60,
+                  "importance_level": "Very High",
+                  "importance_score": 0.2062
+                },
+                {
+                  "unit": "years",
+                  "feature": "Age",
+                  "shap_value": -0.13406538398462467,
+                  "display_name": "Maternal Age",
+                  "patient_value": 26,
+                  "importance_level": "Very High",
+                  "importance_score": 0.1341
+                },
+                {
+                  "unit": "mmHg",
+                  "feature": "SystolicBP",
+                  "shap_value": 0.06374165568095459,
+                  "display_name": "Systolic Blood Pressure",
+                  "patient_value": 150,
+                  "importance_level": "High",
+                  "importance_score": 0.0637
+                }
+              ]
+            },
+            "execution_time": 5.674489500001073,
+            "low_risk_probability": 81,
+            "high_risk_probability": 19
+          }
+        }
+      },
+      {
+        "timestamp": "2026-07-17T12:51:57+00:00",
+        "prediction": "No Risk",
+        "parameters": {
+          "A": 0,
+          "D": 0,
+          "G": 0,
+          "L": 0,
+          "P": 0,
+          "HB": 7,
+          "RR": 10,
+          "Age": 26,
+          "RBS": 60,
+          "HBA1C": 8,
+          "BodyTemp": 105,
+          "HeartRate": 70,
+          "SystolicBP": 190,
+          "DiastolicBP": 110,
+          "_xai_details": {
+            "reports": [
+              {
+                "risk": "Fetal Growth Restriction (FGR)",
+                "report": {
+                  "sources": [],
+                  "overview": "",
+                  "risk_factors": "Information not available in the retrieved medical evidence.",
+                  "warning_signs": "Information not available in the retrieved medical evidence.",
+                  "condition_name": "Fetal Growth Restriction (FGR)",
+                  "patient_summary": "",
+                  "preventive_measures": "Information not available in the retrieved medical evidence.",
+                  "possible_complications": "Information not available in the retrieved medical evidence.",
+                  "when_to_seek_medical_help": "",
+                  "why_this_patient_is_at_risk": ""
+                }
+              },
+              {
+                "risk": "Preterm Birth",
+                "report": {
+                  "sources": [],
+                  "overview": "",
+                  "risk_factors": "Information not available in the retrieved medical evidence.",
+                  "warning_signs": "Information not available in the retrieved medical evidence.",
+                  "condition_name": "Preterm Birth",
+                  "patient_summary": "",
+                  "preventive_measures": "Information not available in the retrieved medical evidence.",
+                  "possible_complications": "Information not available in the retrieved medical evidence.",
+                  "when_to_seek_medical_help": "",
+                  "why_this_patient_is_at_risk": ""
+                }
+              },
+              {
+                "risk": "Hypertensive Disorders of Pregnancy",
+                "report": {
+                  "sources": [],
+                  "overview": "",
+                  "risk_factors": "Information not available in the retrieved medical evidence.",
+                  "warning_signs": "Information not available in the retrieved medical evidence.",
+                  "condition_name": "Hypertensive Disorders of Pregnancy",
+                  "patient_summary": "",
+                  "preventive_measures": "Information not available in the retrieved medical evidence.",
+                  "possible_complications": "Information not available in the retrieved medical evidence.",
+                  "when_to_seek_medical_help": "",
+                  "why_this_patient_is_at_risk": ""
+                }
+              }
+            ],
+            "top_risks": [
+              {
+                "Risk Score": 4.4704,
+                "Risk Category": "Fetal Growth Restriction (FGR)",
+                "Matched Features": "HB, SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Moderate Maternal Anemia, Severe Systolic Hypertension, Severe Diastolic Hypertension",
+                "No. of Features Matched": 3
+              },
+              {
+                "Risk Score": 3.4612,
+                "Risk Category": "Preterm Birth",
+                "Matched Features": "HB, SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Moderate Maternal Anemia, Severe Systolic Hypertension, Severe Diastolic Hypertension",
+                "No. of Features Matched": 3
+              },
+              {
+                "Risk Score": 2.8793,
+                "Risk Category": "Hypertensive Disorders of Pregnancy",
+                "Matched Features": "SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Severe Systolic Hypertension, Severe Diastolic Hypertension",
+                "No. of Features Matched": 2
+              }
+            ],
+            "confidence": 78,
+            "disclaimer": "This system is a clinical decision support tool, not a diagnostic device. All outputs require clinician review.",
+            "risk_table": [
+              {
+                "Risk Score": 4.4704,
+                "Risk Category": "Fetal Growth Restriction (FGR)",
+                "Matched Features": "HB, SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Moderate Maternal Anemia, Severe Systolic Hypertension, Severe Diastolic Hypertension",
+                "No. of Features Matched": 3
+              },
+              {
+                "Risk Score": 3.4612,
+                "Risk Category": "Preterm Birth",
+                "Matched Features": "HB, SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Moderate Maternal Anemia, Severe Systolic Hypertension, Severe Diastolic Hypertension",
+                "No. of Features Matched": 3
+              },
+              {
+                "Risk Score": 2.8793,
+                "Risk Category": "Hypertensive Disorders of Pregnancy",
+                "Matched Features": "SystolicBP, DiastolicBP",
+                "Top Clinical Findings": "Severe Systolic Hypertension, Severe Diastolic Hypertension",
+                "No. of Features Matched": 2
+              },
+              {
+                "Risk Score": 2.1669,
+                "Risk Category": "Maternal Anemia",
+                "Matched Features": "HB",
+                "Top Clinical Findings": "Moderate Maternal Anemia",
+                "No. of Features Matched": 1
+              },
+              {
+                "Risk Score": 0.3774,
+                "Risk Category": "Maternal Infection",
+                "Matched Features": "BodyTemp",
+                "Top Clinical Findings": "High Fever",
+                "No. of Features Matched": 1
+              },
+              {
+                "Risk Score": 0.1698,
+                "Risk Category": "Gestational Diabetes Mellitus (GDM)",
+                "Matched Features": "HBA1C",
+                "Top Clinical Findings": "Diabetic HbA1c",
+                "No. of Features Matched": 1
+              }
+            ],
+            "xai_output": {
+              "disclaimer": "This system is a clinical decision support tool, not a diagnostic device. All outputs require clinician review. The prediction is based on a machine learning model and may not generalize to all populations.",
+              "prediction": {
+                "confidence": 0.78,
+                "risk_level": "Low Risk",
+                "low_risk_probability": 78,
+                "high_risk_probability": 22
+              },
+              "primary_risk": {
+                "name": "Fetal Growth Restriction (FGR)",
+                "evidence_score": 4.4704
+              },
+              "clinical_features": [
+                {
+                  "unit": "mg/dL",
+                  "feature": "RBS",
+                  "shap_value": -0.19716723484102155,
+                  "display_name": "Random Blood Sugar",
+                  "patient_value": 60,
+                  "importance_level": "Very High",
+                  "importance_score": 0.1972
+                },
+                {
+                  "unit": "years",
+                  "feature": "Age",
+                  "shap_value": -0.15191984221918356,
+                  "display_name": "Maternal Age",
+                  "patient_value": 26,
+                  "importance_level": "Very High",
+                  "importance_score": 0.1519
+                },
+                {
+                  "unit": "g/dL",
+                  "feature": "HB",
+                  "shap_value": 0.10678532839309912,
+                  "display_name": "Hemoglobin",
+                  "patient_value": 7,
+                  "importance_level": "Very High",
+                  "importance_score": 0.1068
+                }
+              ]
+            },
+            "execution_time": 7.423005875003582,
+            "low_risk_probability": 78,
+            "high_risk_probability": 22
+          }
+        }
+      },
+      {
+        "timestamp": "2026-07-17T12:46:02+00:00",
+        "prediction": "No Risk",
+        "parameters": {
+          "A": 0,
+          "D": 0,
+          "G": 0,
+          "L": 0,
+          "P": 0,
+          "HB": 16,
+          "RR": 13,
+          "Age": 26,
+          "RBS": 100,
+          "HBA1C": 4,
+          "BodyTemp": 100,
+          "HeartRate": 100,
+          "SystolicBP": 100,
+          "DiastolicBP": 89,
+          "_xai_details": {
+            "reports": [
+              {
+                "risk": "Preterm Birth",
+                "report": {
+                  "sources": [],
+                  "overview": "",
+                  "risk_factors": "Information not available in the retrieved medical evidence.",
+                  "warning_signs": "Information not available in the retrieved medical evidence.",
+                  "condition_name": "Preterm Birth",
+                  "patient_summary": "",
+                  "preventive_measures": "Information not available in the retrieved medical evidence.",
+                  "possible_complications": "Information not available in the retrieved medical evidence.",
+                  "when_to_seek_medical_help": "",
+                  "why_this_patient_is_at_risk": ""
+                }
+              },
+              {
+                "risk": "Gestational Diabetes Mellitus (GDM)",
+                "report": {
+                  "sources": [],
+                  "overview": "",
+                  "risk_factors": "Information not available in the retrieved medical evidence.",
+                  "warning_signs": "Information not available in the retrieved medical evidence.",
+                  "condition_name": "Gestational Diabetes Mellitus (GDM)",
+                  "patient_summary": "",
+                  "preventive_measures": "Information not available in the retrieved medical evidence.",
+                  "possible_complications": "Information not available in the retrieved medical evidence.",
+                  "when_to_seek_medical_help": "",
+                  "why_this_patient_is_at_risk": ""
+                }
+              },
+              {
+                "risk": "Fetal Growth Restriction (FGR)",
+                "report": {
+                  "sources": [],
+                  "overview": "",
+                  "risk_factors": "Information not available in the retrieved medical evidence.",
+                  "warning_signs": "Information not available in the retrieved medical evidence.",
+                  "condition_name": "Fetal Growth Restriction (FGR)",
+                  "patient_summary": "",
+                  "preventive_measures": "Information not available in the retrieved medical evidence.",
+                  "possible_complications": "Information not available in the retrieved medical evidence.",
+                  "when_to_seek_medical_help": "",
+                  "why_this_patient_is_at_risk": ""
+                }
+              }
+            ],
+            "top_risks": [
+              {
+                "Risk Score": 0,
+                "Risk Category": "Preterm Birth",
+                "Matched Features": "",
+                "Top Clinical Findings": "",
+                "No. of Features Matched": 0
+              },
+              {
+                "Risk Score": 0,
+                "Risk Category": "Gestational Diabetes Mellitus (GDM)",
+                "Matched Features": "",
+                "Top Clinical Findings": "",
+                "No. of Features Matched": 0
+              },
+              {
+                "Risk Score": 0,
+                "Risk Category": "Fetal Growth Restriction (FGR)",
+                "Matched Features": "",
+                "Top Clinical Findings": "",
+                "No. of Features Matched": 0
+              }
+            ],
+            "confidence": 96,
+            "disclaimer": "This system is a clinical decision support tool, not a diagnostic device. All outputs require clinician review.",
+            "risk_table": [
+              {
+                "Risk Score": 0,
+                "Risk Category": "Preterm Birth",
+                "Matched Features": "",
+                "Top Clinical Findings": "",
+                "No. of Features Matched": 0
+              },
+              {
+                "Risk Score": 0,
+                "Risk Category": "Gestational Diabetes Mellitus (GDM)",
+                "Matched Features": "",
+                "Top Clinical Findings": "",
+                "No. of Features Matched": 0
+              },
+              {
+                "Risk Score": 0,
+                "Risk Category": "Fetal Growth Restriction (FGR)",
+                "Matched Features": "",
+                "Top Clinical Findings": "",
+                "No. of Features Matched": 0
+              },
+              {
+                "Risk Score": 0,
+                "Risk Category": "Maternal Anemia",
+                "Matched Features": "",
+                "Top Clinical Findings": "",
+                "No. of Features Matched": 0
+              },
+              {
+                "Risk Score": 0,
+                "Risk Category": "Maternal Infection",
+                "Matched Features": "",
+                "Top Clinical Findings": "",
+                "No. of Features Matched": 0
+              },
+              {
+                "Risk Score": 0,
+                "Risk Category": "Hypertensive Disorders of Pregnancy",
+                "Matched Features": "",
+                "Top Clinical Findings": "",
+                "No. of Features Matched": 0
+              }
+            ],
+            "xai_output": {
+              "disclaimer": "This system is a clinical decision support tool, not a diagnostic device. All outputs require clinician review. The prediction is based on a machine learning model and may not generalize to all populations.",
+              "prediction": {
+                "confidence": 0.96,
+                "risk_level": "Low Risk",
+                "low_risk_probability": 96,
+                "high_risk_probability": 4
+              },
+              "primary_risk": {
+                "name": "No significant risk factors identified",
+                "evidence_score": 0
+              },
+              "clinical_features": [
+                {
+                  "unit": "mg/dL",
+                  "feature": "RBS",
+                  "shap_value": -0.20269175656002916,
+                  "display_name": "Random Blood Sugar",
+                  "patient_value": 100,
+                  "importance_level": "Very High",
+                  "importance_score": 0.2027
+                },
+                {
+                  "unit": "years",
+                  "feature": "Age",
+                  "shap_value": -0.1505364632196475,
+                  "display_name": "Maternal Age",
+                  "patient_value": 26,
+                  "importance_level": "Very High",
+                  "importance_score": 0.1505
+                },
+                {
+                  "unit": "",
+                  "feature": "G",
+                  "shap_value": -0.04791334871374443,
+                  "display_name": "Gravida",
+                  "patient_value": 0,
+                  "importance_level": "Moderate",
+                  "importance_score": 0.0479
+                }
+              ]
+            },
+            "execution_time": 6.335325165993709,
+            "low_risk_probability": 96,
+            "high_risk_probability": 4
+          }
+        }
+      }
+    ],
+    "profile": {
+      "name": "myra",
+      "phone_no": "9990799353",
+      "address": "Patiala, Patiala, Patiala, Punjab - 147001",
+      "address_line1": "Patiala",
+      "locality": "Patiala",
+      "city": "Patiala",
+      "state": "Punjab",
+      "pincode": "147001",
+      "dob": "2000-01-01",
+      "gravida": 0,
+      "para": 0,
+      "live_births": 0,
+      "abortions": 0,
+      "deaths": 0,
+      "avatar": "data:image/png;base64,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",
+      "gestational_weeks": 19,
+      "pregnancy_start_date": "2026-03-01"
+    }
+  }
+}

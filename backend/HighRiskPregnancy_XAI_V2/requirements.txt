@@ -1,0 +1,12 @@
+scikit-learn>=1.6.1
+shap
+joblib
+pandas
+numpy
+python-dotenv
+langchain-groq
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+faiss-cpu
+PyPDF
